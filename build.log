@@ -1,0 +1,30 @@
+
+> ethical-learner@0.1.0 build
+> next build
+
+   ▲ Next.js 15.2.3
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./src/app/pages/courses/[id]/page.tsx
+Error:   [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/Users/somnathgiri/ethical-learner/src/app/pages/courses/[id]/page.tsx[0m:147:1]
+ [2m144[0m |   }
+ [2m145[0m | 
+ [2m146[0m |   return (
+ [2m147[0m |     <div>
+     : [35;1m     ^^^[0m
+ [2m148[0m |       <div className="relative min-h-[80vh] bg-gradient-to-br from-[#0F1729] via-[#131B2E] to-[#0F1729] overflow-hidden px-4 sm:px-6 md:px-10 ">
+ [2m149[0m |         <div className="absolute inset-0 opacity-10">
+ [2m150[0m |           <div className="absolute inset-0 bg-grid-white/10 [mask-image:radial-gradient(white,transparent_70%)]" />
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/pages/courses/[id]/page.tsx
+
+
+> Build failed because of webpack errors

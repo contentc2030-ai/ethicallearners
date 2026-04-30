@@ -50,7 +50,7 @@ export function WhyUpskilling({ benefits }: WhyUpskillingProps) {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-[1.1]">
             Why <span className="text-[#4CC9F0] italic font-serif font-normal">Upskilling</span> <br />
             <span className="text-2xl md:text-3xl text-gray-400 font-light block mt-2">
-              is Essential in Today's Market
+              is Essential in Today&apos;s Market
             </span>
           </h2>
         </motion.div>
